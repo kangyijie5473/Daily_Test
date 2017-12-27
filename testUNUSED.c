@@ -6,9 +6,9 @@
  */
 
 #include <stdio.h>
-#define UNUSED(v) ((void)v)
+#define UNUSED(v) ((void)v) //  GCC 要求定义的变量必须要使用 不然会报warning
 int main(int argc, char **argv)
 {
-    //UNUSED(argc);
-    argc = 2.00;
+    int i ;
+    
 }
