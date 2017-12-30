@@ -20,7 +20,5 @@ void func(A a)
 }
 int main()
 {
-    string d = "hello";
-    A a(d);
     func(string("asdf"));
 }
